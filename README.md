@@ -1,2 +1,0 @@
-# RestClient
-Simple REST client
