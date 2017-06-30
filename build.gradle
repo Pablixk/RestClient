@@ -1,0 +1,18 @@
+group 'restclient'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-log4j12:+'
+    compile 'com.google.code.gson:gson:+'
+    compile 'org.apache.httpcomponents:httpclient:+'
+    compile 'commons-io:commons-io:+'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
